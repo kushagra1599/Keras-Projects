@@ -1,2 +1,2 @@
 # Keras-Projects
-#This repository includes some of my own made projects.
+This repository includes some of my own made projects.
