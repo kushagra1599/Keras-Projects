@@ -25,7 +25,7 @@ classifier.add(Dense(output_dim = 1,kernel_initializer= 'he_uniform', activation
 
 classifier.compile(optimizer='adam',loss='binary_crossentropy',metrics=['accuracy'])
 # Fitting the classifier to the training set
-classifier.fit(X_train,y_train,batch_size=10,epochs=100)
+classifier.fit(X_train,y_train,batch_size=4,epochs=100)
 # Making predictions
 y_pred = classifier.predict(X_test)
 
